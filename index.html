@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Forms 101</title>
+</head>
+<body style="background-color: #C7A98B; font-family: 'Times New Roman', serif; display: flex; justify-content: center; padding: 40px;">
+
+  <div style="width: 850px; background-color: #FFFAF1; border: 10px solid #956E50; box-shadow: 3px 3px 10px rgba(152, 109, 75, 0.22); padding: 15px 25px; font-size: 14px;">
+
+    <div style="display: flex; margin-bottom: 20px;">
+      <img src="https://theyoungvision.com/wp-content/uploads/2019/01/Sports-Fitness.jpg" alt="Jogging" width="400" height="80" style="margin-right: 15px; border: 1px solid #ccc;">
+      <p style="font-size: 13.5px; line-height: 1.5; margin: 0;">
+        Fitness isn’t just about the body — it’s about the will to push forward when it’s easier to quit. It’s in the quiet battles, the small wins, and the steady rise after each fall. True strength is built when no one’s watching, and every drop of effort is a step closer to who you’re meant to become.
+      </p>
+    </div>
+
+    <form style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 25px; row-gap: 15px; font-size: 14px;">
+
+      <div style="display: flex; flex-direction: column;">
+
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <label for="name" style="width: 110px; font-size: 14px;">Name:</label>
+          <input type="text" id="name" style="width: 180px; height: 24px; padding: 3px 6px; font-size: 13px; border: 1px solid #999;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <label for="address" style="width: 110px; font-size: 14px;">Address:</label>
+          <input type="text" id="address" style="width: 180px; height: 24px; padding: 3px 6px; font-size: 13px; border: 1px solid #999;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <label for="email" style="width: 110px; font-size: 14px;">Email-Ad:</label>
+          <input type="email" id="email" style="width: 180px; height: 24px; padding: 3px 6px; font-size: 13px; border: 1px solid #999;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <label for="contact" style="width: 110px; font-size: 14px;">Contact Number:</label>
+          <input type="text" id="contact" style="width: 180px; height: 24px; padding: 3px 6px; font-size: 13px; border: 1px solid #999;">
+        </div>
+
+      </div>
+
+      <div style="display: flex; flex-direction: column;">
+
+        <div style="margin-bottom: 20px;">
+          <label style="font-size: 13px; font-weight: bold; display: block; margin-bottom: 5px;">Gender:</label>
+
+          <label style="font-size: 13px;">
+            <input type="radio" name="gender" style="margin-right: 5px;"> Male
+          </label><br>
+
+          <label style="font-size: 13px;">
+            <input type="radio" name="gender" style="margin-right: 5px;"> Female
+          </label>
+        </div>
+
+        <div>
+          <label style="font-size: 13px; font-weight: bold; display: block; margin-bottom: 5px;">Hobbies:</label>
+
+          <label style="font-size: 13px;">
+            <input type="checkbox" style="margin-right: 5px;"> Swimming
+          </label><br>
+
+          <label style="font-size: 13px;">
+            <input type="checkbox" style="margin-right: 5px;"> Biking
+          </label><br>
+
+          <label style="font-size: 13px;">
+            <input type="checkbox" style="margin-right: 5px;"> Reading
+          </label><br>
+
+          <label style="font-size: 13px;">
+            <input type="checkbox" style="margin-right: 5px;"> Watching TV
+          </label><br>
+
+          <label style="font-size: 13px;">
+            <input type="checkbox" style="margin-right: 5px;"> Playing
+          </label>
+        </div>
+    </form>
+  </div>
+</body>
+</html>
